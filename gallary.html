@@ -1,1 +1,73 @@
-gallary.html
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Supermarket</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: right;
+        }
+        h1, h2, h3 {
+            color: #00698f;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery-item {
+            margin: 10px;
+            width: 250px;
+            height: 250px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .gallery-item:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>گالری تصاویر سوپر مارکت</h1>
+    </header>
+    <main>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/gallery1.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery2.jpg" alt="Gallery Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery3.jpg" alt="Gallery Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery4.jpg" alt="Gallery Image 4">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery5.jpg" alt="Gallery Image 5">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery6.jpg" alt="Gallery Image 6">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery7.jpg" alt="Gallery Image 7">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery8.jpg" alt="Gallery Image 8">
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
